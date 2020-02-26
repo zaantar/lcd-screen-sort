@@ -1,0 +1,7 @@
+{
+  "input_dirs": {
+    "screens": "input/screens",
+    "repeating": "input/repeating"
+  },
+  "output_dir": "output"
+}
