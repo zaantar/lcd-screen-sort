@@ -53,8 +53,8 @@ with open('settings.json') as jsonFile:
 
 output_dir = settings['output_dir']
 
-repeating_images_dir = settings['input_dir']['repeating']
-screen_input_dir = settings['input_dir']['screens']
+repeating_images_dir = settings['input_dirs']['repeating']
+screen_input_dir = settings['input_dirs']['screens']
 
 # Build the list of screens we need to process
 screen_list = [str(f.name) for f in Path(screen_input_dir).glob('*') if f.is_dir()]
